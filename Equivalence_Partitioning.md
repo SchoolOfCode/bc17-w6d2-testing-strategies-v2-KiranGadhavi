@@ -49,27 +49,27 @@ You are tasked with testing a registration form that has the following input fie
 2. Identify the invalid equivalence classes for the Age field.
 3. Fill in the table below with the identified equivalence classes.
 
-| Input Field | Valid Equivalence Classes | Invalid Equivalence Classes |
+| Input Field | Valid Equivalence Classes | Invalid Equivalence Classes|
 |-------------|---------------------------|----------------------------|
-| Age         |                           |                            |
+| Age         | Age>=18<, Age<=120        |  Age<18, Age>120           |
 
 ### Task 2: Identify Equivalence Classes for Email
 1. Identify the valid equivalence classes for the Email field.
 2. Identify the invalid equivalence classes for the Email field.
 3. Fill in the table below with the identified equivalence classes.
 
-| Input Field | Valid Equivalence Classes | Invalid Equivalence Classes |
+| Input Field | Valid Equivalence Classes | Invalid Equivalence Classes|
 |-------------|---------------------------|----------------------------|
-| Email       |                           |                            |
+| Email       | user@domain.com           | 123user@domain@.           |
 
 ### Task 3: Identify Equivalence Classes for Password
 1. Identify the valid equivalence classes for the Password field.
 2. Identify the invalid equivalence classes for the Password field.
 3. Fill in the table below with the identified equivalence classes.
 
-| Input Field | Valid Equivalence Classes | Invalid Equivalence Classes |
+| Input Field | Valid Equivalence Classes | Invalid Equivalence Classes|
 |-------------|---------------------------|----------------------------|
-| Password    |                           |                            |
+| Password    |      Abc12                |     abcd1                  |
 
 ### Task 4: Discuss and Share
 1. Discuss your findings with your group.
